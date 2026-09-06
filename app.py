@@ -35,5 +35,5 @@ else:
     st.balloons()
     st.write("""
     Happy 6 Months! Combining metallurgy and computer science makes us 
-    the ultimate system. Here's to many more updates and shared milestones ahead!
+    the ultimate system. Here is to many more updates and shared milestones ahead!
     """)
