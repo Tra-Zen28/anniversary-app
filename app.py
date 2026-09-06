@@ -21,19 +21,21 @@ st.markdown("""
    
    st.write("---")
     st.header("💌 Decrypted Message")
-    st.write("""
-    They say metallurgy is all about finding the right balance of elements 
-    to build something strong, durable, and resilient. Combining my world of 
-    materials with your world of algorithms and computer science makes us 
-    the ultimate system.
+    message = (
+    "They say metallurgy is all about finding the right balance of elements "
+    "to build something strong, durable, and resilient. Combining my world of "
+    "materials with your world of algorithms and computer science makes us "
+    "the ultimate system. \n\n"
     
-    Thank you for an incredible six months. Here is to many more updates, 
-    successful builds, and shared milestones ahead!
-    """)
+   "Thank you for an incredible six months. Here is to many more updates, "
+    "successful builds, and shared milestones ahead!"
+    )
+    st.write(message)
 else:
     st.warning("Access granted anyway because I love you! ❤️")
     st.balloons()
-    st.write("""
-    Happy 6 Months! Combining metallurgy and computer science makes us 
-    the ultimate system. Here is to many more updates and shared milestones ahead!
-    """)
+    fallback_message = (
+    "Happy 6 Months! Combining metallurgy and computer science makes us "
+    "the ultimate system. Here is to many more updates and shared milestones ahead!"
+    )
+    st.write(fallback_message)
