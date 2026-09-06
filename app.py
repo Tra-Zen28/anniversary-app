@@ -27,7 +27,7 @@ st.markdown("""
     materials with your world of algorithms and computer science makes us 
     the ultimate system.
     
-    Thank you for an incredible six months. Here's to many more updates, 
+    Thank you for an incredible six months. Here is to many more updates, 
     successful builds, and shared milestones ahead!
     """)
 else:
